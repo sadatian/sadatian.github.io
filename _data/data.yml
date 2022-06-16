@@ -63,7 +63,7 @@ career-profile:
         - Familiar with data solutions, pipelines and automation:	Alteryx/Knime, Rapidminer, Azure ML
 
 education:
-    title: Education and Certifications
+    # title: Education and Certifications
     - degree: M.S. Analytics – Computational Data Analytics Track
       university: Georgia Institute of Technology
       time: 2020 - 10/2022
@@ -75,23 +75,28 @@ education:
           
     - degree: B.S. Applied Mathematics – Finance Concentration 
       university: New York City College of Technology
-      details: |
+      time: False
+      details: False
       
     - degree: A.S. Computer Science
       university: New York City College of Technology
-      details: |
+      time: False
+      details: False
 
     - degree: Leadership and Management Development I
       university: U.S. Army NCO Academy
-      details: |
+      time: False
+      details: False
 
     - degree: Plan, Program, Budget, and Execution Systems
       university: U.S. Army Financial Management School
-      details: |
+      time: False
+      details: False
 
     - degree: Certified ScrumMaster
       university: Scrum Alliance
-      details: |
+      time: False
+      details: False
 
 
 experiences:
