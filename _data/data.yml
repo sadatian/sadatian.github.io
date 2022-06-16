@@ -8,20 +8,20 @@ sidebar:
 
     # Profile information
     name: Dan Sadatian
-    tagline: Data Analyst | Operations Research
+    tagline: Data Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: dan@sadatian.io
     phone: False
     citizenship:
-    website: #do not add http://
+    website: False #do not add http://
     linkedin: dansadatian
     xing: False
     github: sadatian
     telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
+    gitlab: False
+    bitbucket: False
     twitter: False #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
@@ -54,35 +54,38 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-# education:
-#     - degree: MSc in Computer Science
-#       university: University of London
-#       time: 2011 - 2012
-#       details: |
-#         Describe your study here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#         sociis natoque penatibus et magnis dis parturient montes, nascetur
-#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#         pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
-#     - degree: BSc in Applied Mathematics
-#       university: Bristol University
-#       time: 2007 - 2011
-#       details: |
-#         Describe your study here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#         sociis natoque penatibus et magnis dis parturient montes, nascetur
-#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#         pretium quis, sem.
-#           - Bullet point
-#           - Bullet point
+      Military veteran with a passion for storytelling through data analysis. Experienced in operations optimization with a focus on policy design. Distinct proficiencies include:
+        - Programming languages and computing tools:	Python, R, MATLAB, Scala
+        - Data visualization and presentation tools:	Tableau, Stata, Minitab, PowerBI, Looker, Plotly/Dash
+        - Data administration and ETL:	SQL, Hadoop(Pig), Hive, Spark(+Databricks)
+        - Descrete-event simulation, operations, and logistics:	Arena, SimPy, simmer, SAP ERP(GFEBS)
+        - Experienced with cloud computing and virtual solutions:	AWS, MS Azure, Google Cloud
+        - Familiar with data solutions, pipelines and automation:	Alteryx/Knime, Rapidminer, Azure ML
+
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -148,46 +151,46 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+    # title: Publications
+    # intro: |
+      # You can list your publications in this section. Lorem ipsum dolor sit
+      # amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      # bibendum fringilla a eu lectus.
+    # papers:
+      # - title: The Art of Computer Programming
+        # link: "#"
+        # authors: Donald E. Knuth
+        # conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        # link: "#"
+        # authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        # conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      # - title: A syntax directed compiler for Algol 60
+        # link: "#"
+        # authors: Edgar T. Irons
+        # conference: "Comm. ACM 4 (1961), 51–55"
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+    # title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    # toolset:
+      # - name: Python & Django
+        # level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      # - name: Javascript & jQuery
+        # level: 98%
 
-      - name: Angular
-        level: 98%
+      # - name: Angular
+        # level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      # - name: HTML5 & CSS
+        # level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      # - name: Ruby on Rails
+        # level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      # - name: Sketch & Photoshop
+        # level: 60%
