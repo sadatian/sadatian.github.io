@@ -19,10 +19,10 @@ h6 {
 }
 
 a {
-  color: darken(#6c3453, 15%);
+  color: darken(#6c3453, 10%);
   &:hover {
     text-decoration: underline;
-    color: darken(#6c3453, 30%);
+    color: darken(#6c3453, 18%);
   }
   &:focus {
     text-decoration: none;
@@ -322,7 +322,7 @@ iframe {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken(#6c3453, 15%);
+    color: darken(#6c3453, 10%);
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -367,7 +367,7 @@ iframe {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken(#6c3453, 15%);
+    color: darken(#6c3453, 10%);
   }
   .projects-section {
     .intro {
