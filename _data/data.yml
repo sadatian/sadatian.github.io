@@ -63,52 +63,52 @@ career-profile:
         - Familiar with data solutions, pipelines and automation:	Alteryx/Knime, Rapidminer, Azure ML
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-
-experiences:
-    - role: M.S. in Analytics Student
+    title: Education and Certifications
+    - degree: M.S. Analytics – Computational Data Analytics Track
+      university: Georgia Institute of Technology
       time: 2020 - 10/2022
-      company: Georgia Institute of Technology
       details: |
         Will be graduating over the Computational Data Analytics track with a 3.7 GPA in October 2022. Notable courses include:
           - Big Data for Health Informatics 
           - High Dimensional Data Analytics
           - Simulation for Operations Research
+    - degree: B.S. Applied Mathematics – Finance Concentration 
+      university: New York City College of Technology
+      # time: 2007 - 2011
+    - degree: A.S. Computer Science
+      university: New York City College of Technology
+    - degree: Leadership and Management Development I
+      university: U.S. Army NCO Academy
+    - degree: Plan, Program, Budget, and Execution Systems
+      university: U.S. Army Financial Management School
+    - degree: Certified ScrumMaster
+      university: Scrum Alliance
+
+experiences:
+    # - role: M.S. in Analytics Student
+    #   time: 2020 - 10/2022
+    #   company: Georgia Institute of Technology
+    #   details: |
+    #     Will be graduating over the Computational Data Analytics track with a 3.7 GPA in October 2022. Notable courses include:
+    #       - Big Data for Health Informatics 
+    #       - High Dimensional Data Analytics
+    #       - Simulation for Operations Research
 
     - role: Financial Management Specialist (Active Duty)
       time: 2015 - 2019
       company: United States Army
       details: |
-        -*Budget Analyst / Resource Manager* – Mission Command Center of Excellence (Budget Office)
+        - *Budget Analyst / Resource Manager* – Mission Command Center of Excellence (Budget Office)
           - Worked directly with senior executives to program and execute expense accounts worth over $3.75 million. 
           - Prepared and presented biweekly, monthly and quarterly performance and execution reports to high-ranking officers and senior executives. 
           - Created dynamic dashboards for fiscal budgets with projections, forcasts and scenario evaluation options.
-          - Recruited and fully trained two new personnel that filled my position 3 months ahead of schedule.
-        -*Compliance Officer* – Combined Arms Command G8 (Finance Office) 
+          - Recruited and fully trained two new personnel that filled my position 3 months ahead of schedule.  
+
+        - *Compliance Officer* – Combined Arms Command G8 (Finance Office) 
           - Monitored financial internal control practices to ensure senior leaders were in compliance with fiscal rules, regulations, and procedures prescribed by DoD as well as local directives, program guidance, and fiscal budgetary policies and guidelines.
-          - Implemented pattern analysis methodologies into audit guidelines that increased failsafe redundancies yet reduced total audit time.
-        -*Logistics Specialist* – 40TH Military Police Battalion S4 (Logistics Office)
+          - Implemented pattern analysis methodologies into audit guidelines that increased failsafe redundancies yet reduced total audit time.  
+
+        - *Logistics Specialist* – 40TH Military Police Battalion S4 (Logistics Office)
           - Implemented automated tracking procedures that reduced the overhead cost and manpower.
           - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness. 
 
@@ -121,6 +121,16 @@ experiences:
           - Recruited over 50 scientists and engineers to form several small dynamic research teams.
           - Secured funding and equipment to maintain 3 active research projects continuously.
           - Implemented iterative development policies to allow individual projects to be worked on gradually by a large number of personnel.
+
+    - role: Research Associate
+      time: 2009 - 2014
+      company: New York City College of Technology
+      details: |
+          - Provided technical and administrative support to a group of 4 scientists and over 40 student research fellows for multiple interdisciplinary research projects.
+          - Supervised student research activities and implemented use of Trello which improved collaborations significantly.
+          - Created dynamic solutions with MATLAB, R, Java and C++ to provide numerical and statistical analysis to each project.
+          - Designed and maintained multiple databases using Microsoft Access and MySQL to streamline data collection and analysis for the research groups. 
+
 
 # projects:
 #     title: Projects
