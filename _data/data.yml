@@ -87,69 +87,67 @@ education:
           - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: M.S. in Analytics Student
+      time: 2020 - 10/2022
+      company: Georgia Institute of Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Will be graduating over the Computational Data Analytics track with a 3.7 GPA in October 2022. Notable courses include:
+          - Big Data for Health Informatics 
+          - High Dimensional Data Analytics
+          - Simulation for Operations Research
+
+    - role: Financial Management Specialist (Active Duty)
+      time: 2015 - 2019
+      company: United States Army
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        -*Budget Analyst / Resource Manager* – Mission Command Center of Excellence (Budget Office)
+          - Worked directly with senior executives to program and execute expense accounts worth over $3.75 million. 
+          - Prepared and presented biweekly, monthly and quarterly performance and execution reports to high-ranking officers and senior executives. 
+          - Created dynamic dashboards for fiscal budgets with projections, forcasts and scenario evaluation options.
+          - Recruited and fully trained two new personnel that filled my position 3 months ahead of schedule.
+        -*Compliance Officer* – Combined Arms Command G8 (Finance Office) 
+          - Monitored financial internal control practices to ensure senior leaders were in compliance with fiscal rules, regulations, and procedures prescribed by DoD as well as local directives, program guidance, and fiscal budgetary policies and guidelines.
+          - Implemented pattern analysis methodologies into audit guidelines that increased failsafe redundancies yet reduced total audit time.
+        -*Logistics Specialist* – 40TH Military Police Battalion S4 (Logistics Office)
+          - Implemented automated tracking procedures that reduced the overhead cost and manpower.
+          - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness. 
+
+    - role: Executive Director
+      time: 2011 - 2015
+      company: Polysophy Inc.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          - Founded non-profit research organization with the mission to provide hands-on experience for STEM new graduates with a focus on studying renewable solutions.
+          - Enlisted instructors from CUNY-CityTech and NYU-Polytech to serve as members of the board and volunteer advisers for the research teams. 
+          - Recruited over 50 scientists and engineers to form several small dynamic research teams.
+          - Secured funding and equipment to maintain 3 active research projects continuously.
+          - Implemented iterative development policies to allow individual projects to be worked on gradually by a large number of personnel.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # publications:
     # title: Publications
