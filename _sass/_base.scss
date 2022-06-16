@@ -60,7 +60,7 @@ p {
   }
   .profile-container {
     // padding: 30px;
-    margin-top: 15%;
+    padding-top: 30px;
     //background: darken($theme-color, 10%);
     // background: rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -175,7 +175,7 @@ p {
 @media only screen and (max-width: 1000px) {
   .sidebar-wrapper {
     position: sticky;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 300px);
     top: 0px;
     left: 0;
     color: white;
@@ -188,30 +188,30 @@ p {
     a {
       color: #fff;
     }
-    .profile-container {
-      // padding: 30px;
-      margin-top: 15%;
-      //background: darken($theme-color, 10%);
-      // background: rgba(0, 0, 0, 0.2);
-      text-align: center;
-      color: #fff;
-    }
-    .name {
-      font-size: 32px;
-      font-weight: 900;
-      margin-top: 0;
-      margin-bottom: 10px;
-    }
-    .tagline {
-      color: rgba(256, 256, 256, 0.6);
-      font-size: 16px;
-      font-weight: 400;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-    .profile {
-      margin-bottom: 15px;
-    }
+    // .profile-container {
+    //   // padding: 30px;
+    //   padding-top: 30px;
+    //   //background: darken($theme-color, 10%);
+    //   // background: rgba(0, 0, 0, 0.2);
+    //   text-align: center;
+    //   color: #fff;
+    // }
+    // .name {
+    //   font-size: 32px;
+    //   font-weight: 900;
+    //   margin-top: 0;
+    //   margin-bottom: 10px;
+    // }
+    // .tagline {
+    //   color: rgba(256, 256, 256, 0.6);
+    //   font-size: 16px;
+    //   font-weight: 400;
+    //   margin-top: 0;
+    //   margin-bottom: 0;
+    // }
+    // .profile {
+    //   margin-bottom: 15px;
+    // }
   
     .avatar {
       //used for profile image
