@@ -61,7 +61,7 @@ p {
   .profile-container {
     padding: 30px;
     //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    // background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
@@ -109,8 +109,8 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
-    margin-top: 50%;
+    // padding: 30px;
+    margin-top: 15%;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -173,7 +173,7 @@ p {
 @media only screen and (max-width: 1000px) {
   .sidebar-wrapper {
     position: sticky;
-    height: calc(100vh + 270px);
+    height: calc(100vh - 30px);
     top: 0px;
     left: 0;
     color: white;
@@ -189,7 +189,7 @@ p {
     .profile-container {
       padding: 30px;
       //background: darken($theme-color, 10%);
-      background: rgba(0, 0, 0, 0.2);
+      // background: rgba(0, 0, 0, 0.2);
       text-align: center;
       color: #fff;
     }
