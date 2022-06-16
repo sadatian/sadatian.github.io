@@ -75,27 +75,18 @@ education:
           
     - degree: B.S. Applied Mathematics – Finance Concentration 
       university: New York City College of Technology
-      details: False
       
     - degree: A.S. Computer Science
       university: New York City College of Technology
-      time: False
-      details: False
 
     - degree: Leadership and Management Development I
       university: U.S. Army NCO Academy
-      time: False
-      details: False
 
     - degree: Plan, Program, Budget, and Execution Systems
       university: U.S. Army Financial Management School
-      time: False
-      details: False
 
     - degree: Certified ScrumMaster
       university: Scrum Alliance
-      time: False
-      details: False
 
 
 experiences:
