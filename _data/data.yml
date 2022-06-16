@@ -72,17 +72,27 @@ education:
           - Big Data for Health Informatics 
           - High Dimensional Data Analytics
           - Simulation for Operations Research
+          
     - degree: B.S. Applied Mathematics – Finance Concentration 
       university: New York City College of Technology
-      # time: 2007 - 2011
+      details: |
+      
     - degree: A.S. Computer Science
       university: New York City College of Technology
+      details: |
+
     - degree: Leadership and Management Development I
       university: U.S. Army NCO Academy
+      details: |
+
     - degree: Plan, Program, Budget, and Execution Systems
       university: U.S. Army Financial Management School
+      details: |
+
     - degree: Certified ScrumMaster
       university: Scrum Alliance
+      details: |
+
 
 experiences:
     # - role: M.S. in Analytics Student
