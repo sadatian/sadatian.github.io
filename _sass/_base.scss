@@ -399,6 +399,11 @@ iframe {
   }
 }
 
+// project title decapitalization:
+.projects-section .section-title {
+  text-transform: none;
+}
+
 .skillset {
   .item {
     margin-bottom: 15px;
