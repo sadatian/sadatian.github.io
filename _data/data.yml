@@ -64,7 +64,7 @@ career-profile:
 
 education:
     # title: Education and Certifications
-    - degree: M.S. Analytics — *Computational Data Analytics Track*
+    - degree: M.S. Analytics — Computational Data Analytics Track
       university: Georgia Institute of Technology
       time: 10/2022
       details: |
@@ -73,7 +73,7 @@ education:
           - High Dimensional Data Analytics
           - Simulation for Operations Research
           
-    - degree: B.S. Applied Mathematics — *Finance Concentration* 
+    - degree: B.S. Applied Mathematics — Finance Concentration 
       university: New York City College of Technology
       
     - degree: A.S. Computer Science
