@@ -55,12 +55,12 @@ career-profile:
     title: Summary
     summary: |
       Military veteran with a passion for storytelling through data analysis. Experienced in operations optimization with a focus on policy design. Distinct proficiencies include:
-        - Programming languages and computing tools:	Python, R, MATLAB, Scala
-        - Data visualization and presentation tools:	Tableau, Stata, Minitab, PowerBI, Looker, Plotly/Dash
-        - Data administration and ETL:	SQL, Hadoop(Pig), Hive, Spark(+Databricks)
-        - Descrete-event simulation, operations, and logistics:	Arena, SimPy, simmer, SAP ERP(GFEBS)
-        - Experienced with cloud computing and virtual solutions:	AWS, MS Azure, Google Cloud
-        - Familiar with data solutions, pipelines and automation:	Alteryx/Knime, Rapidminer, Azure ML
+        - Programming languages and computing tools:	**Python, R, MATLAB, Scala**
+        - Data visualization and presentation tools:	**Tableau, Stata, Minitab, PowerBI, Looker, Plotly/Dash**
+        - Data administration and ETL:	**SQL, Hadoop**(Pig)**, Hive, Spark**(+Databricks)
+        - Descrete-event simulation, operations, and logistics:	**Arena, SimPy, simmer, SAP ERP**(GFEBS)
+        - Experienced with cloud computing and virtual solutions:	**AWS, MS Azure, Google Cloud**
+        - Familiar with data solutions, pipelines and automation:	**Alteryx**(+Knime)**, Rapidminer, Azure ML**
 
 education:
     # title: Education and Certifications
