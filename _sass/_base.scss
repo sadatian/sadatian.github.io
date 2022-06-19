@@ -78,8 +78,9 @@ iframe {
     color: #fff;
   }
   .name {
-    font-size: 32px;
+    // font-size: 32px;
     // font-weight: 900;
+    font-variant: small-caps;
     text-shadow: 1px 1px 2px #00000099;
     margin-top: 0;
     margin-bottom: 10px;
@@ -127,7 +128,8 @@ iframe {
     margin-top: 15%;
   }
   .container-block-title {
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    font-variant: small-caps;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
@@ -323,7 +325,8 @@ iframe {
   flex-direction: column;
 
   .section-title {
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    font-variant: small-caps;
     font-size: 20px;
     font-weight: 500;
     color: darken(#6c3453, 10%);
