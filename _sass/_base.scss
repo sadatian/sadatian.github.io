@@ -1,6 +1,10 @@
 /* ======= Base ======= */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600&display=swap');
+
 body {
   font-family: "Roboto", sans-serif;
+  // font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 400;
   color: $text-color-secondary;
   background: #eee5e8bd;
   font-size: 14px;
