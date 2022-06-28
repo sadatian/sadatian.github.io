@@ -11561,6 +11561,10 @@ body.lm-mod-override-cursor * {
   height: 300px;
   color: black;
   direction: ltr;
+}
+
+.jp-CodeConsole .CodeMirror.cm-s-jupyter, .jp-Notebook .CodeMirror.cm-s-jupyter {
+  /* Adding horizantal scrollbars to code blocks */
   overflow-x: auto;
 }
 
@@ -11571,7 +11575,7 @@ body.lm-mod-override-cursor * {
 }
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror pre.CodeMirror-line-like {
-  padding: 0 4px; /* Horizontal padding of content */
+  padding: 0 0px; /* Horizontal padding of content */
 }
 
 .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {
