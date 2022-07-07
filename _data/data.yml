@@ -70,19 +70,23 @@ education:
       
     - degree: B.S. Applied Mathematics — Finance Concentration 
       university: New York City College of Technology
+      time: 05/2015
       
     - degree: A.S. Computer Science
       university: New York City College of Technology
-
-    - degree: Leadership and Management Development I
-      university: U.S. Army NCO Academy
-
-    - degree: Plan, Program, Budget, and Execution Systems
-      university: U.S. Army Financial Management School
+      time: 05/2013
 
     - degree: Certified ScrumMaster
       university: Scrum Alliance
+      time: 07/2019
 
+    - degree: Leadership and Management Development I
+      university: U.S. Army NCO Academy
+      time: 04/2019
+
+    - degree: Plan, Program, Budget, and Execution Systems
+      university: U.S. Army Financial Management School
+      time: 02/2018
 
 experiences:
     # - role: M.S. in Analytics Student
