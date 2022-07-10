@@ -444,3 +444,26 @@ iframe {
     color: $heart;
   }
 }
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eee1ea;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #E4CCD6;
+  border-radius: 18px;
+  border: 5px solid transparent;
+}
