@@ -66,7 +66,7 @@ education:
     # title: Education and Certifications
     - degree: M.S. Analytics — Computational Data Analytics Track
       university: Georgia Institute of Technology
-      time: 10/2022
+      time: 11/2022
       
     - degree: B.S. Applied Mathematics — Finance Concentration 
       university: New York City College of Technology
@@ -102,7 +102,7 @@ experiences:
       time: 2020 - 10/2022
       company: Georgia Institute of Technology
       details: |
-        Will be graduating with a 3.8 GPA in the Computational Data Analytics track by October 2022. Notable courses include:
+        Will be graduating with a 3.7 GPA in the Computational Data Analytics track by November 2022. Notable courses include:
           - Data Analytics for Business: Business intelligence course specifically dealing with business management, performance, and operations data. This class heavily focused on building analytics dashboards with Tableau and Power BI.
           - Big Data for Health Informatic: This course involves ETL and analyzing extremely large data from a variety of sources from third party APIs and Hadoop (HDFS/Pig/Hive) and Spark (RDD/SQL) connections using Scala and Python.
           - Simulation for Operations Research: This course introduces advanced topics in process and operations analysis, queue optimization, and inventory theory through stochastic and discrete-event simulations using Arena and SimPy.
