@@ -55,12 +55,12 @@ career-profile:
     title: Summary
     summary: |
       Military veteran with a passion for storytelling through data analysis. Experienced in operations optimization with a focus on policy design. Distinct proficiencies include:
-        - Programming languages and statistical software 	 **Python**, **R**, **Scala**, **MATLAB**, **Stata**, **Minitab**
-        - Data visualization and presentation tools 	 **Tableau**, **Power BI**, **Looker**, **Plotly/Dash**, ggplot2
-        - Data administration and ETL 	 **SQL**, **Spark** (Databricks), **Hadoop** (Pig/Hive)
-        - Discrete-event simulation, operations, and logistics 	 **Arena**, SimPy, simmer, **SAP ERP** (GFEBS)
-        - Experienced with cloud computing and virtual solutions 	 **AWS**, MS Azure, Google Cloud
-        - Familiar with data solutions, mining, pipelines, and automation 	 **Alteryx**/Knime, RapidMiner, Azure ML
+        - Programming languages and statistical software:  **Python**, **R**, **Scala**, **MATLAB**, **Stata**, **Minitab**
+        - Data visualization and presentation tools:  **Tableau**, **Power BI**, **Looker**, **Plotly/Dash**, ggplot2
+        - Data administration and ETL:  **SQL**, **Spark** (Databricks), **Hadoop** (Pig/Hive)
+        - Discrete-event simulation, operations, and logistics:  **Arena**, SimPy, simmer, **SAP ERP** (GFEBS)
+        - Experienced with cloud computing and virtual solutions:  **AWS**, MS Azure, Google Cloud
+        - Familiar with data solutions, mining, pipelines, and automation:  **Alteryx**/Knime, RapidMiner, Azure ML
 
 
 education:
@@ -100,7 +100,7 @@ experiences:
     #       - Simulation for Operations Research
 
     - role: M.S. in Analytics Student
-      time: 2020 - 11/2022
+      time: 01/2020 - 11/2022
       company: Georgia Institute of Technology
       details: |
         Will be graduating with a 3.7 GPA in the Computational Data Analytics track by November 2022. Notable courses include:
@@ -110,7 +110,7 @@ experiences:
           - High-Dimensional Data Analysis: Machine learning class that deals with more complex data. Topics include tensor decomposition, multidimensional signal processing, image processing and high-dimensional regression.
 
     - role: Financial Management Specialist (Active Duty)
-      time: 2015 - 2019
+      time: 09/2015 - 09/2019
       company: United States Army
       details: |
         *Budget Analyst / Resource Manager* — Mission Command Center of Excellence (Budget Office)
@@ -128,7 +128,7 @@ experiences:
           - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness. 
 
     - role: Executive Director
-      time: 2011 - 2015
+      time: 08/2011 - 09/2015
       company: Polysophy Inc.
       details: |
           - Founded non-profit research organization with the mission to provide hands-on experience for STEM new graduates with a focus on studying renewable solutions.
@@ -138,7 +138,7 @@ experiences:
           - Implemented iterative development policies to allow individual projects to be worked on gradually by a large number of personnel.
 
     - role: Research Associate
-      time: 2009 - 2014
+      time: 01/2009 - 11/2014
       company: New York City College of Technology
       details: |
           - Provided technical and administrative support to a group of 4 scientists and over 40 student research fellows for multiple interdisciplinary research projects.
