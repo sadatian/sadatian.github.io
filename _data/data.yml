@@ -55,18 +55,19 @@ career-profile:
     title: Summary
     summary: |
       Military veteran with a passion for storytelling through data analysis. Experienced in operations optimization with a focus on policy design. Distinct proficiencies include:
-        - Programming languages and computing tools:	**Python, R, MATLAB, Scala**
-        - Data visualization and presentation tools:	**Tableau, Stata, Minitab, PowerBI, Looker, Plotly/Dash**
-        - Data administration and ETL:	**SQL, Hadoop**(Pig)**, Hive, Spark**(+Databricks)
-        - Descrete-event simulation, operations, and logistics:	**Arena, SimPy, simmer, SAP ERP**(GFEBS)
-        - Experienced with cloud computing and virtual solutions:	**AWS, MS Azure, Google Cloud**
-        - Familiar with data solutions, pipelines and automation:	**Alteryx**(+Knime)**, Rapidminer, Azure ML**
+        - Programming languages and statistical software 	 **Python**, **R**, **Scala**, **MATLAB**, **Stata**, **Minitab**
+        - Data visualization and presentation tools 	 **Tableau**, **Power BI**, **Looker**, **Plotly/Dash**, ggplot2
+        - Data administration and ETL 	 **SQL**, **Spark** (Databricks), **Hadoop** (Pig/Hive)
+        - Discrete-event simulation, operations, and logistics 	 **Arena**, SimPy, simmer, **SAP ERP** (GFEBS)
+        - Experienced with cloud computing and virtual solutions 	 **AWS**, MS Azure, Google Cloud
+        - Familiar with data solutions, mining, pipelines, and automation 	 **Alteryx**/Knime, RapidMiner, Azure ML
+
 
 education:
     # title: Education and Certifications
     - degree: M.S. Analytics — Computational Data Analytics Track
       university: Georgia Institute of Technology
-      time: 11/2022
+      time: 12/2022
       
     - degree: B.S. Applied Mathematics — Finance Concentration 
       university: New York City College of Technology
@@ -86,7 +87,7 @@ education:
 
     - degree: Plan, Program, Budget, and Execution Systems
       university: U.S. Army Financial Management School
-      time: 02/2018
+      time: 02/2017
 
 experiences:
     # - role: M.S. in Analytics Student
