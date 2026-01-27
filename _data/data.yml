@@ -54,13 +54,16 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      Military veteran with a passion for storytelling through data analysis. Experienced in operations optimization with a focus on policy design. Distinct proficiencies include:
-        - Programming languages and statistical software:  **Python**, **R**, **Scala**, **MATLAB**, **Stata**, **Minitab**
-        - Data visualization and presentation tools:  **Tableau**, **Power BI**, **Looker**, **Plotly/Dash**, ggplot2
-        - Data administration and ETL:  **SQL**, **Spark** (Databricks), **Hadoop** (Pig/Hive)
-        - Discrete-event simulation, operations, and logistics:  **Arena**, SimPy, simmer, **SAP ERP** (GFEBS)
-        - Experienced with cloud computing and virtual solutions:  **AWS**, MS Azure, Google Cloud
-        - Familiar with data solutions, mining, pipelines, and automation:  **Alteryx**/Knime, RapidMiner, Azure ML
+      Data Science Manager with strong leadership in ML/AI development, analytics platform integration, and cross-functional team management. Military veteran with a passion for storytelling through data analysis and operations optimization. Currently leading enterprise-wide analytics integration efforts following major organizational transitions, with expertise in context embedding, predictive analytics, and audit reporting framework development. Distinct proficiencies include:
+        - **Leadership & Management:**  Technical Staff Management, Cross-functional Team Leadership, **ML/AI Strategy**, **Enterprise Integration**, **MLOps**
+        - **Machine Learning & AI:**  **Context Embedding**, **NLP**, **Graph Analytics**, **Predictive Modeling**, Fraud Detection, Risk Assessment, **Deep Learning**
+        - **ML Frameworks & Platforms:**  **TensorFlow**, **PyTorch**, scikit-learn, **MLflow**, Kubeflow, **AWS SageMaker**, Azure ML, Vertex AI
+        - **Programming & Statistical Software:**  **Python**, **R**, **SQL**, **Scala**, MATLAB, Stata, Minitab, **Git**
+        - **Data Visualization & BI:**  **Tableau**, **Power BI**, **Looker**, Plotly/Dash, ggplot2
+        - **Big Data & ETL:**  **Spark** (Databricks), **Hadoop** (Pig/Hive), data pipelines, **CI/CD for ML**
+        - **Cloud & Infrastructure:**  **AWS** (S3, EC2, Lambda, SageMaker), **Azure**, **Google Cloud**, **Docker**, **Kubernetes**
+        - **Operations & Simulation:**  Arena, SimPy, simmer, SAP ERP (GFEBS)
+        - **Data Solutions & Automation:**  **Alteryx**, Knime, RapidMiner, DVC (Data Version Control)
 
 
 education:
@@ -90,6 +93,38 @@ education:
       time: 02/2017
 
 experiences:
+    - role: Manager Data Science
+      time: 05/2025 - Present
+      company: Capital One
+      details: |
+        Leading continued integration efforts following the Discover Financial Services acquisition, ensuring seamless transition of data science capabilities and analytical infrastructure.
+          - Spearheading cross-functional integration initiatives to unify analytics platforms and standardize data science workflows across merged organizations.
+          - Managing technical teams through organizational change while maintaining operational excellence and delivering business-critical analytics solutions.
+          - Driving adoption of unified ML/AI frameworks and best practices to optimize model deployment and governance across enterprise systems.
+          - Collaborating with senior leadership to align data strategy and prioritize integration roadmap for maximum business impact.
+
+    - role: Manager Data Science
+      time: 02/2025 - 05/2025
+      company: Discover Financial Services
+      details: |
+        Led critical migration and integration efforts during Capital One acquisition, managing the transition of analytical tools, data infrastructure, and team operations.
+          - Orchestrated enterprise-wide migration of analytics platforms and ML pipelines to ensure business continuity during organizational transition.
+          - Managed data structure harmonization and ETL processes to integrate disparate systems while maintaining data integrity and governance standards.
+          - Directed technical staff through acquisition period, maintaining team productivity and morale while navigating organizational change.
+          - Collaborated with Capital One leadership to assess, document, and transfer data science capabilities, ensuring seamless knowledge transfer.
+          - Developed comprehensive migration roadmaps for analytical tools including Tableau, Alteryx, and proprietary ML frameworks.
+
+    - role: Lead Data Scientist
+      time: 01/2023 - 02/2025
+      company: Discover Financial Services
+      details: |
+        Led cross-functional data science team specializing in context embedding, relational network analysis, and predictive analytics for enterprise risk management and audit operations.
+          - Directed team development of advanced context embedding models and relational network frameworks to identify patterns and relationships across complex financial datasets.
+          - Built end-to-end predictive Issue Analysis system leveraging NLP and graph analytics to proactively detect compliance risks and operational anomalies.
+          - Architected comprehensive analytics and reporting frameworks for all audit-related metrics, enabling real-time monitoring and automated reporting for internal audit teams.
+          - Implemented machine learning pipelines for fraud detection and risk assessment, reducing false positive rates by significant margins while improving detection accuracy.
+          - Mentored junior data scientists on best practices in model development, feature engineering, and MLOps while fostering culture of technical excellence.
+
     # - role: M.S. in Analytics Student
     #   time: 2020 - 10/2022
     #   company: Georgia Institute of Technology
@@ -103,7 +138,7 @@ experiences:
       time: 01/2020 - 12/2022
       company: Georgia Institute of Technology
       details: |
-        Will be graduating with a 3.7 GPA in the Computational Data Analytics track by December 2022. Notable courses include:
+        Graduated with a 3.7 GPA in the Computational Data Analytics track. Notable courses include:
           - Data Analytics for Business: Business intelligence course specifically dealing with business management, performance, and operations data. This class heavily focused on building analytics dashboards with Tableau and Power BI.
           - Big Data for Health Informatics: This course involves ETL and analyzing extremely large data from a variety of sources from third party APIs and Hadoop (HDFS/Pig/Hive) and Spark (RDD/SQL) connections using Scala and Python.
           - Simulation for Operations Research: This course introduces advanced topics in process and operations analysis, queue optimization, and inventory theory through stochastic and discrete-event simulations using Arena and SimPy.
