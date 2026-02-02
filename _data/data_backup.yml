@@ -8,13 +8,12 @@ sidebar:
 
     # Profile information
     name: Dan Sadatian
-    tagline: Data Science Manager | ML/AI Strategy & Enterprise Analytics
+    tagline: Data Science Manager
     avatar: profile3.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: dan@sadatian.io
     phone: False
-    citizenship:
     website: False #do not add http://
     linkedin: dansadatian
     xing: False
@@ -32,14 +31,15 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      Data Science Manager driving enterprise ML/AI strategy, analytics platform integration, and high-performing technical teams. Military veteran bringing operational discipline and a passion for translating complex data into actionable business narratives. Currently leading analytics integration following the Capital One–Discover merger, with expertise in context embedding, predictive analytics, and audit automation.
-      
-      **Core Competencies:**
-      - **Leadership:** Technical Staff Management, ML/AI Strategy, Enterprise Integration, MLOps Governance
-      - **ML/AI:** NLP, Graph Analytics, Context Embedding, RAG, Vector Search, Generative AI
-      - **Data & Platforms:** AWS (SageMaker), Azure ML, Databricks (Spark), Docker, Kubernetes, SQL, Python/R
-      - **Analytics & Viz:** Tableau, Power BI, Looker, Alteryx, Plotly/Dash
-      - **Operations:** Simulation (Arena/SimPy), Process Optimization, ERP Systems
+      Data Science Manager with strong leadership in ML/AI development, analytics platform integration, and cross-functional team management. Military veteran with a passion for storytelling through data analysis and operations optimization. Currently leading enterprise-wide analytics integration efforts following major organizational transitions, with expertise in context embedding, predictive analytics, and audit reporting framework development. Distinct proficiencies include:
+        - **Leadership & Strategy:** Technical Staff Management, Cross-functional Team Leadership, **ML/AI Strategy**, **Enterprise Integration**, **MLOps Governance**
+        - **Machine Learning & Generative AI:** **NLP**, **Graph Analytics**, **Context Embedding**, Vector Search & Indexing, **RAG (Retrieval-Augmented Generation)**
+        - **MLOps & Cloud Platforms:** **AWS** (SageMaker, S3, EC2), **Azure ML**, **MLflow**, Docker, Kubernetes
+        - **Data Engineering & Big Data:** **Spark** (Databricks), **Hadoop**, **Data Pipelines**, **CI/CD for ML**, Data Version Control (DVC)
+        - **Languages & Core Tools:** **Python**, **R**, **SQL**, Scala, Shell Scripting
+        - **Analytics & Visualization:** **Tableau**, **Power BI**, **Looker**, Plotly/Dash, ggplot2, **Alteryx**
+        - **Operations & Simulation:** Arena, SimPy, simmer, SAP ERP (GFEBS), MATLAB
+
 
 education:
     - degree: M.S. Analytics — Computational Data Analytics Track
@@ -71,7 +71,7 @@ experiences:
       time: 05/2025 - Present
       company: Capital One
       details: |
-        Leading strategic integration efforts following the Discover Financial Services acquisition, ensuring a seamless transition of data science capabilities and analytical infrastructure.
+        Leading continued integration efforts following the Discover Financial Services acquisition, ensuring seamless transition of data science capabilities and analytical infrastructure.
           - Spearheading cross-functional integration initiatives to unify analytics platforms and standardize data science workflows across merged organizations.
           - Managing technical teams through organizational change while maintaining operational excellence and delivering business-critical analytics solutions.
           - Driving adoption of unified ML/AI frameworks and best practices to optimize model deployment and governance across enterprise systems.
@@ -96,8 +96,8 @@ experiences:
           - Directed team development of advanced context embedding models and relational network frameworks to identify patterns and relationships across complex financial datasets.
           - Built end-to-end predictive Issue Analysis system leveraging NLP and graph analytics to proactively detect compliance risks and operational anomalies.
           - Architected comprehensive analytics and reporting frameworks for all audit-related metrics, enabling real-time monitoring and automated reporting for internal audit teams.
-          - Implemented machine learning pipelines for fraud detection and risk assessment, substantially reducing false positive rates while improving detection accuracy.
-          - Mentored junior data scientists on best practices in model development, feature engineering, and MLOps while fostering a culture of technical excellence.
+          - Implemented machine learning pipelines for fraud detection and risk assessment, reducing false positive rates by significant margins while improving detection accuracy.
+          - Mentored junior data scientists on best practices in model development, feature engineering, and MLOps while fostering culture of technical excellence.
 
     - role: M.S. in Analytics Student
       time: 01/2020 - 12/2022
@@ -114,25 +114,25 @@ experiences:
       company: United States Army
       details: |
         *Budget Analyst / Resource Manager* — Mission Command Center of Excellence (Budget Office)
-          - Partnered with senior executives to program and execute expense accounts worth over $3.75 million.
-          - Prepared and presented biweekly, monthly and quarterly performance and execution reports to high-ranking officers and senior executives.
-          - Created dynamic dashboards for fiscal budgets with projections, forecasts and scenario evaluation options.
-          - Recruited and fully trained two new personnel that filled my position 3 months ahead of schedule.
+          - Worked directly with senior executives to program and execute expense accounts worth over $3.75 million. 
+          - Prepared and presented biweekly, monthly and quarterly performance and execution reports to high-ranking officers and senior executives. 
+          - Created dynamic dashboards for fiscal budgets with projections, forcasts and scenario evaluation options.
+          - Recruited and fully trained two new personnel that filled my position 3 months ahead of schedule.  
 
-        *Compliance Officer* — Combined Arms Command G8 (Finance Office)
-          - Monitored financial internal control practices to ensure senior leaders were in compliance with fiscal regulations prescribed by DoD and local directives, policies, and program guidance.
-          - Implemented pattern analysis methodologies into audit guidelines that increased failsafe redundancies yet reduced total audit time.
+        *Compliance Officer* — Combined Arms Command G8 (Finance Office) 
+          - Monitored financial internal control practices to ensure senior leaders were in compliance with fiscal rules, regulations, and procedures prescribed by DoD as well as local directives, program guidance, and fiscal budgetary policies and guidelines.
+          - Implemented pattern analysis methodologies into audit guidelines that increased failsafe redundancies yet reduced total audit time.  
 
         *Logistics Specialist* — 40TH Military Police Battalion S4 (Logistics Office)
-          - Implemented automated tracking procedures that reduced overhead costs and manpower requirements.
-          - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness.
+          - Implemented automated tracking procedures that reduced the overhead cost and manpower.
+          - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness. 
 
     - role: Executive Director
       time: 08/2011 - 09/2015
       company: Polysophy Inc.
       details: |
-          - Founded a non-profit research organization to provide hands-on experience for STEM new graduates with a focus on studying renewable solutions.
-          - Enlisted instructors from CUNY-CityTech and NYU-Polytech to serve as members of the board and volunteer advisers for the research teams.
+          - Founded non-profit research organization with the mission to provide hands-on experience for STEM new graduates with a focus on studying renewable solutions.
+          - Enlisted instructors from CUNY-CityTech and NYU-Polytech to serve as members of the board and volunteer advisers for the research teams. 
           - Recruited over 50 scientists and engineers to form several small dynamic research teams.
           - Secured funding and equipment to maintain 3 active research projects continuously.
           - Implemented iterative development policies to allow individual projects to be worked on gradually by a large number of personnel.
@@ -144,4 +144,4 @@ experiences:
           - Provided technical and administrative support to a group of 4 scientists and over 40 student research fellows for multiple interdisciplinary research projects.
           - Supervised student research activities and implemented use of Trello which improved collaborations significantly.
           - Created dynamic solutions with MATLAB, R, Java and C++ to provide numerical and statistical analysis to each project.
-          - Designed and maintained multiple databases using Microsoft Access and MySQL to streamline data collection and analysis for the research groups.
+          - Designed and maintained multiple databases using Microsoft Access and MySQL to streamline data collection and analysis for the research groups. 
