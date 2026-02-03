@@ -19,6 +19,11 @@
       display: none !important;
    }
 
+   /* Hide new button row with Resume/Download buttons */
+   .button-row {
+      display: none !important;
+   }
+
    /* Prevent browsers from showing URLs after links */
    a[href]:after {
       content: none !important;
@@ -182,7 +187,7 @@
 
       /* Add spacing between individual entries */
       .item {
-         margin-bottom: 120px;
+         margin-bottom: 12px;
          padding-bottom: 0px;
       }
 
