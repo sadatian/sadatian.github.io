@@ -1,20 +1,20 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: Dan Sadatian [Data Analyst]
+title: Dan Sadatian 📊 Data Science Manager
 url: 'https://sadatian.io/'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 # baseurl: '/resume' 
 
-description: Hire me!
+description: Data Science Manager driving enterprise ML/AI strategy, analytics platform integration, and high-performing technical teams. Military veteran bringing operational discipline and a passion for translating complex data into actionable business narratives. Currently leading analytics integration following the Capital One–Discover merger, with expertise in context embedding, predictive analytics, and audit automation.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
-analytics: #G-JMKJM2LM37
+analytics:
 
 # Sass/SCSS
 sass:

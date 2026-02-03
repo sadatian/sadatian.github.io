@@ -1,35 +1,106 @@
 <style>
   .button {
-  background-color: #00000012; /* %Gray */
-  width: 100%;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.8s; /* Safari */
-  transition-duration: 0.4s;
-}
+    background-color: #00000012;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.4s;
+  }
 
+  .button1:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+  }
 
+  .button-row {
+    display: flex;
+    width: 100%;
+    background-color: #00000012;
+  }
 
-.button1:hover {
-  box-shadow: 0px 1px 9px 0px rgb(0 0 0 / 24%), 0px 1px 9px 0px rgb(0 0 0 / 24%);
-}
+  .button-resume {
+    flex: 1;
+    border: none;
+    color: rgba(168, 0, 0, 0.501);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .button-resume:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+  }
+
+  .button-download {
+    border: none;
+    color: rgba(125, 9, 9, 0.646);
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    border-left: 1px dashed rgb(89, 5, 20);
+    display: flex;
+    align-items: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .button-download:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+  }
+
+  .button-download img {
+    width: 22px;
+    height: 22px;
+  }
 </style>
 
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
-    <a href="/">
-      <button class="button button1">Resume</button>
-  </a>
-    </ul>
+    <div class="button-row">
+      <a href="/" class="button-resume">Resume</a>
+      <a href="javascript:void(0);" onclick="downloadResume();" class="button-download">
+        <img src="{{ site.baseurl }}/assets/images/download.svg" alt="Download Resume" />
+      </a>
+    </div>
+  </ul>
+
+  <script>
+    function downloadResume() {
+      if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+        window.print();
+      } else {
+        sessionStorage.setItem('printOnLoad', 'true');
+        window.location.href = '/';
+      }
+    }
+
+    // Check if we should print after navigation
+    if (sessionStorage.getItem('printOnLoad') === 'true') {
+      sessionStorage.removeItem('printOnLoad');
+      window.addEventListener('load', function () {
+        setTimeout(function () { window.print(); }, 500);
+      });
+    }
+  </script>
   <ul class="list-unstyled contact-list">
     <a href="/projects">
-    <button class="button button1">Projects</button>
-  </a>
-</ul>
+      <button class="button button1">Projects</button>
+    </a>
+  </ul>
 </div><!--//contact-container-->

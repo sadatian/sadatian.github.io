@@ -8,13 +8,12 @@ sidebar:
 
     # Profile information
     name: Dan Sadatian
-    tagline: Data Science Manager | ML/AI Strategy & Enterprise Analytics
+    tagline: <b>Data Science Manager</b> <br><br> ML/AI Strategy <br> Enterprise Analytics
     avatar: profile3.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: dan@sadatian.io
     phone: False
-    citizenship:
     website: False #do not add http://
     linkedin: dansadatian
     xing: False
@@ -44,31 +43,31 @@ career-profile:
 education:
     - degree: M.S. Analytics — Computational Data Analytics Track
       university: Georgia Institute of Technology
-      time: 12/2022
+      time: Dec '22
       
     - degree: B.S. Applied Mathematics — Finance Concentration 
       university: New York City College of Technology
-      time: 05/2015
+      time: May '15
       
     - degree: A.S. Computer Science
-      university: New York City College of Technology
-      time: 05/2013
+      university: New York City College of Technology <br><br><br> 
+      time: May '13
 
     - degree: Certified ScrumMaster
       university: Scrum Alliance
-      time: 07/2019
+      time: Jul '19
 
     - degree: Leadership and Management Development I
       university: U.S. Army NCO Academy
-      time: 04/2019
+      time: Apr '19
 
     - degree: Plan, Program, Budget, and Execution Systems
       university: U.S. Army Financial Management School
-      time: 02/2017
+      time: Feb '17
 
 experiences:
     - role: Manager Data Science
-      time: 05/2025 - Present
+      time: May '25 - Present
       company: Capital One
       details: |
         Leading strategic integration efforts following the Discover Financial Services acquisition, ensuring a seamless transition of data science capabilities and analytical infrastructure.
@@ -76,9 +75,10 @@ experiences:
           - Managing technical teams through organizational change while maintaining operational excellence and delivering business-critical analytics solutions.
           - Driving adoption of unified ML/AI frameworks and best practices to optimize model deployment and governance across enterprise systems.
           - Collaborating with senior leadership to align data strategy and prioritize integration roadmap for maximum business impact.
+          <br><br>
 
     - role: Manager Data Science
-      time: 02/2025 - 05/2025
+      time: Feb '25 - May '25
       company: Discover Financial Services
       details: |
         Led critical migration and integration efforts during Capital One acquisition, managing the transition of analytical tools, data infrastructure, and team operations.
@@ -87,9 +87,10 @@ experiences:
           - Directed technical staff through acquisition period, maintaining team productivity and morale while navigating organizational change.
           - Collaborated with Capital One leadership to assess, document, and transfer data science capabilities, ensuring seamless knowledge transfer.
           - Developed comprehensive migration roadmaps for analytical tools including Tableau, Alteryx, and proprietary ML frameworks.
+          <br><br>
 
     - role: Lead Data Scientist
-      time: 01/2023 - 02/2025
+      time: Jan '23 - Feb '25
       company: Discover Financial Services
       details: |
         Led cross-functional data science team specializing in context embedding, relational network analysis, and predictive analytics for enterprise risk management and audit operations.
@@ -98,19 +99,21 @@ experiences:
           - Architected comprehensive analytics and reporting frameworks for all audit-related metrics, enabling real-time monitoring and automated reporting for internal audit teams.
           - Implemented machine learning pipelines for fraud detection and risk assessment, substantially reducing false positive rates while improving detection accuracy.
           - Mentored junior data scientists on best practices in model development, feature engineering, and MLOps while fostering a culture of technical excellence.
+          <br><br>
 
     - role: M.S. in Analytics Student
-      time: 01/2020 - 12/2022
+      time: Jan '20 - Dec '22
       company: Georgia Institute of Technology
       details: |
         Graduated with a 3.7 GPA in the Computational Data Analytics track. Notable courses include:
-          - Data Analytics for Business: Business intelligence course specifically dealing with business management, performance, and operations data. This class heavily focused on building analytics dashboards with Tableau and Power BI.
-          - Big Data for Health Informatics: This course involves ETL and analyzing extremely large data from a variety of sources from third party APIs and Hadoop (HDFS/Pig/Hive) and Spark (RDD/SQL) connections using Scala and Python.
-          - Simulation for Operations Research: This course introduces advanced topics in process and operations analysis, queue optimization, and inventory theory through stochastic and discrete-event simulations using Arena and SimPy.
-          - High-Dimensional Data Analysis: Machine learning class that deals with more complex data. Topics include tensor decomposition, multidimensional signal processing, image processing and high-dimensional regression.
+          - High-Dimensional Data Analytics: Advanced ML, tensor decomposition, signal processing
+          - Data and Visual Analytics: Scalable analysis, graph analytics, interactive visualizations
+          - Big Data for Health Informatics: Spark, RDD, Pig, Hive
+          - Simulation: Process optimization, queue theory, Arena/SimPy
+          <br><br>
 
     - role: Financial Management Specialist (Active Duty)
-      time: 09/2015 - 09/2019
+      time: Sep '15 - Sep '19
       company: United States Army
       details: |
         *Budget Analyst / Resource Manager* — Mission Command Center of Excellence (Budget Office)
@@ -126,9 +129,10 @@ experiences:
         *Logistics Specialist* — 40TH Military Police Battalion S4 (Logistics Office)
           - Implemented automated tracking procedures that reduced overhead costs and manpower requirements.
           - Identified equipment and supply requirements and prepared procurement and contracting documents for maximum mission effectiveness.
+          <br><br>
 
     - role: Executive Director
-      time: 08/2011 - 09/2015
+      time: Aug '11 - Sep '15
       company: Polysophy Inc.
       details: |
           - Founded a non-profit research organization to provide hands-on experience for STEM new graduates with a focus on studying renewable solutions.
@@ -136,12 +140,14 @@ experiences:
           - Recruited over 50 scientists and engineers to form several small dynamic research teams.
           - Secured funding and equipment to maintain 3 active research projects continuously.
           - Implemented iterative development policies to allow individual projects to be worked on gradually by a large number of personnel.
+          <br><br>
 
     - role: Research Associate
-      time: 01/2009 - 11/2014
+      time: Jan '09 - Nov '14
       company: New York City College of Technology
       details: |
           - Provided technical and administrative support to a group of 4 scientists and over 40 student research fellows for multiple interdisciplinary research projects.
           - Supervised student research activities and implemented use of Trello which improved collaborations significantly.
           - Created dynamic solutions with MATLAB, R, Java and C++ to provide numerical and statistical analysis to each project.
           - Designed and maintained multiple databases using Microsoft Access and MySQL to streamline data collection and analysis for the research groups.
+          <br><br>

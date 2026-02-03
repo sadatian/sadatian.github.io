@@ -1,15 +1,16 @@
 /* ======= Base ======= */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
-  font-family: "Roboto", sans-serif;
-  // font-family: 'Noto Sans Display', sans-serif;
-  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  // letter-spacing: -0.01em;
+  font-weight: 500;
   color: $text-color-secondary;
   background: #eee5e8bd;
-  font-size: 14px;
-  padding: 0px;
+  font-size: 15px;
+  padding: 00px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,10 +26,12 @@ h6 {
 
 a {
   color: darken(#6c3453, 10%);
+
   &:hover {
     text-decoration: underline;
     color: darken(#6c3453, 18%);
   }
+
   &:focus {
     text-decoration: none;
   }
@@ -65,11 +68,13 @@ iframe {
   flex-shrink: 0;
   grid-column: span 3;
   order: 0;
-  background: #6c3453;
+  background: #802942e0;
   color: #fff;
+
   a {
     color: #fff;
   }
+
   .profile-container {
     // padding: 30px;
     padding-top: 30px;
@@ -78,6 +83,7 @@ iframe {
     text-align: center;
     color: #fff;
   }
+
   .name {
     // font-size: 32px;
     // font-weight: 900;
@@ -86,14 +92,16 @@ iframe {
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(256, 256, 256, 0.75);
     text-shadow: 1px 1px 2px #00000099;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .profile {
     margin-bottom: 15px;
   }
@@ -106,7 +114,9 @@ iframe {
     border-radius: 100%;
     box-shadow: 1px 4px 7px 2px rgba(0, 0, 0, 0.3);
   }
+
   .contact-list {
+
     .fas,
     .fab,
     .far {
@@ -114,6 +124,7 @@ iframe {
       font-size: 18px;
       vertical-align: middle;
     }
+
     li {
       margin-bottom: 15px;
       text-align-last: center;
@@ -124,10 +135,12 @@ iframe {
       }
     }
   }
+
   .container-block {
     // padding: 30px;
     margin-top: 15%;
   }
+
   .container-block-title {
     // text-transform: uppercase;
     font-variant: small-caps;
@@ -136,30 +149,36 @@ iframe {
     margin-top: 0;
     margin-bottom: 15px;
   }
+
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+
   .education-container {
     .item {
       margin-bottom: 15px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
+
     .meta {
       color: rgba(256, 256, 256, 0.6);
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
+
     .time {
       color: #8d6171;
       font-weight: 500;
       margin-bottom: 0px;
     }
   }
+
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -168,8 +187,10 @@ iframe {
 
   .languages-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -178,12 +199,43 @@ iframe {
 
   .interests-list {
     margin-bottom: 0;
+
     li {
       margin-bottom: 10px;
+
       &:last-child {
         margin-bottom: 0;
       }
     }
+  }
+
+  .download-resume-container {
+    text-align: center;
+    margin-top: auto;
+    padding: 20px 0;
+  }
+
+  .download-resume-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    transition: background 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+
+    &:hover {
+      box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24), 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+      text-decoration: none;
+    }
+  }
+
+  .download-icon {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -199,9 +251,11 @@ iframe {
     order: 0;
     // background: $theme-color;
     color: #fff;
+
     a {
       color: #fff;
     }
+
     // .profile-container {
     //   // padding: 30px;
     //   padding-top: 30px;
@@ -226,7 +280,7 @@ iframe {
     // .profile {
     //   margin-bottom: 15px;
     // }
-  
+
     // .avatar {
     //   //used for profile image
     //   max-width: 120px;
@@ -246,10 +300,10 @@ iframe {
     //   li {
     //     margin-bottom: 15px;
     //     text-align-last: center;
-  
+
     //     &:last-child {
     //       margin-bottom: 0;
-  
+
     //     }
     //   }
     // }
@@ -257,6 +311,7 @@ iframe {
       // padding: 30px;
       margin-top: 8%;
     }
+
     // .container-block-title {
     //   text-transform: uppercase;
     //   font-size: 16px;
@@ -269,45 +324,54 @@ iframe {
       margin-top: 0;
       margin-bottom: 5px;
     }
+
     .education-container {
       .item {
         margin-bottom: 15px;
+
         &:last-child {
           margin-bottom: 0;
         }
       }
+
       .meta {
         color: rgba(256, 256, 256, 0.6);
         font-weight: 500;
         margin-bottom: 0px;
         margin-top: 0;
       }
+
       .time {
         color: #8d6171;
         font-weight: 500;
         margin-bottom: 0px;
       }
     }
+
     .languages-container {
       .lang-desc {
         color: rgba(256, 256, 256, 0.6);
       }
     }
-  
+
     .languages-list {
       margin-bottom: 0;
+
       li {
         margin-bottom: 10px;
+
         &:last-child {
           margin-bottom: 0;
         }
       }
     }
-  
+
     .interests-list {
       margin-bottom: 0;
+
       li {
         margin-bottom: 10px;
+
         &:last-child {
           margin-bottom: 0;
         }
@@ -335,6 +399,7 @@ iframe {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
   .section {
     margin-bottom: 25px;
   }
@@ -345,25 +410,36 @@ iframe {
       margin-bottom: 15px;
     }
   }
+
   .upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
   }
-  .job-title,
+
+  .job-title {
+    color: $text-color;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 650;
+  }
+
   .degree {
     color: $text-color;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 600;
   }
+
   .time {
     position: absolute;
     right: 0;
     top: 0;
     color: #8d6171;
   }
+
   .company,
   .university {
     margin-bottom: 10px;
@@ -375,12 +451,14 @@ iframe {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 5px;
-    color: darken(#6c3453, 10%);
+    color: darken(#6c344d, 10%);
   }
+
   .projects-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -392,15 +470,18 @@ iframe {
     color: $text-color;
     margin-bottom: 1px;
   }
+
   .publication-authors {
     font-style: italic;
     color: $text-grey;
     margin-bottom: 1px;
   }
+
   .publications-section {
     .intro {
       margin-bottom: 30px;
     }
+
     .item {
       margin-bottom: 15px;
     }
@@ -417,15 +498,18 @@ iframe {
     margin-bottom: 15px;
     overflow: hidden;
   }
+
   .level-title {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
   }
+
   .level-bar {
     height: 12px;
     background: $smoky-white;
   }
+
   .level-bar-inner {
     height: 12px;
     background: lighten(#6c3453, 15%);
@@ -434,6 +518,7 @@ iframe {
 
 .footer {
   padding-top: 0px;
+
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
@@ -444,6 +529,7 @@ iframe {
     color: $heart;
   }
 }
+
 
 // Scrollbar
 ::-webkit-scrollbar {
