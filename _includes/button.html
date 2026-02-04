@@ -20,13 +20,14 @@
   }
 
   .button-row {
-    display: flex;
+    position: relative;
     width: 100%;
     background-color: #00000012;
   }
 
   .button-resume {
-    flex: 1;
+    display: block;
+    width: 100%;
     border: none;
     color: rgba(168, 0, 0, 0.501);
     padding: 15px 20px;
@@ -46,13 +47,18 @@
   }
 
   .button-download {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
     border: none;
     color: rgba(125, 9, 9, 0.646);
     padding: 10px 15px;
     text-align: center;
     cursor: pointer;
     background: transparent;
-    border-left: 1px dashed rgb(89, 5, 20);
+    border: 1px dashed rgba(94, 5, 22, 0.573);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     -webkit-transition-duration: 0.4s;
@@ -65,8 +71,8 @@
   }
 
   .button-download img {
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
   }
 </style>
 

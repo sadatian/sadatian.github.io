@@ -53,7 +53,11 @@ education:
       university: New York City College of Technology <br><br><br> 
       time: May '13
 
-    - degree: Certified ScrumMaster
+    - degree:  
+      university:  
+      time:  
+
+    - degree: Certified ScrumMaster (CSM)
       university: Scrum Alliance
       time: Jul '19
 
