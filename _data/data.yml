@@ -50,7 +50,7 @@ education:
       time: May '15
       
     - degree: A.S. Computer Science
-      university: New York City College of Technology <br><br><br> 
+      university: New York City College of Technology 
       time: May '13
 
     - degree:  
@@ -154,4 +154,4 @@ experiences:
           - Supervised student research activities and implemented use of Trello which improved collaborations significantly.
           - Created dynamic solutions with MATLAB, R, Java and C++ to provide numerical and statistical analysis to each project.
           - Designed and maintained multiple databases using Microsoft Access and MySQL to streamline data collection and analysis for the research groups.
-          <br><br>
+          <br>

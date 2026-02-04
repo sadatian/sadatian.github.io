@@ -80,30 +80,15 @@
   <ul class="list-unstyled contact-list">
     <div class="button-row">
       <a href="/" class="button-resume">Resume</a>
-      <a href="javascript:void(0);" onclick="downloadResume();" class="button-download">
+      {% assign resume_files = site.static_files | where_exp: "file", "file.path contains '/assets/resume/'" |
+      where_exp: "file", "file.extname == '.pdf'" | sort: "name" | reverse %}
+      {% if resume_files.size > 0 %}
+      <a href="{{ resume_files.first.path }}" download class="button-download">
         <img src="{{ site.baseurl }}/assets/images/download.svg" alt="Download Resume" />
       </a>
+      {% endif %}
     </div>
   </ul>
-
-  <script>
-    function downloadResume() {
-      if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-        window.print();
-      } else {
-        sessionStorage.setItem('printOnLoad', 'true');
-        window.location.href = '/';
-      }
-    }
-
-    // Check if we should print after navigation
-    if (sessionStorage.getItem('printOnLoad') === 'true') {
-      sessionStorage.removeItem('printOnLoad');
-      window.addEventListener('load', function () {
-        setTimeout(function () { window.print(); }, 500);
-      });
-    }
-  </script>
   <ul class="list-unstyled contact-list">
     <a href="/projects">
       <button class="button button1">Projects</button>
