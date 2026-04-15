@@ -1,0 +1,26 @@
+{
+  "experimental": {
+    "modelSteering": true
+  },
+  "security": {
+    "enableConseca": false
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    }
+  },
+  "ide": {
+    "enabled": true
+  },
+  "ui": {
+    "errorVerbosity": "full",
+    "showModelInfoInChat": true,
+    "showCitations": true,
+    "showMemoryUsage": true,
+    "footer": {
+      "hideContextPercentage": false
+    },
+    "showStatusInTitle": true
+  }
+}
