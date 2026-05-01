@@ -112,8 +112,9 @@ iframe {
 
   .avatar {
     //used for profile image
-    max-width: 120px;
-    margin-bottom: 22px;
+    max-width: 160px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     border: 0px solid #fff;
     filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.3));
   }
@@ -381,6 +382,13 @@ iframe {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar-wrapper .avatar {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
