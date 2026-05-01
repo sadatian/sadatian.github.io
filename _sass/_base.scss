@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 body {
   font-family: "Nunito", sans-serif;
@@ -21,6 +22,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
 }
 
@@ -88,6 +90,7 @@ iframe {
     // font-size: 32px;
     // font-weight: 900;
     font-variant: small-caps;
+    font-family: "Roboto Slab", serif;
     text-shadow: 1px 1px 2px #00000099;
     margin-top: 0;
     margin-bottom: 10px;
@@ -144,6 +147,7 @@ iframe {
   .container-block-title {
     // text-transform: uppercase;
     font-variant: small-caps;
+    font-family: "Roboto Slab", serif;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
@@ -392,6 +396,7 @@ iframe {
   .section-title {
     // text-transform: uppercase;
     font-variant: small-caps;
+    font-family: "Roboto Slab", serif;
     font-size: 22px;
     font-weight: 500;
     color: darken(#6c3453, 10%);
@@ -447,6 +452,7 @@ iframe {
   }
 
   .project-title {
+    font-family: "Roboto Slab", serif;
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
