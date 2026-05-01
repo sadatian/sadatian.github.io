@@ -37,7 +37,7 @@ expertise:
   title: Expertise
   areas:
     - category: Strategic Leadership & Governance
-      details: AI/ML Strategy, MLOps Governance, Data Governance, Model Risk Management, Technical Leadership, Organizational Change Management, Enterprise Integration.
+      details: ML/AI Strategy, MLOps Governance, Data Governance, Model Risk Management, Technical Leadership, Organizational Change Management, Enterprise Integration.
     - category: AI & Advanced Modeling
       details: Predictive Modeling, Natural Language Processing, Graph Analytics, Representation Learning, RAG, Vector Search, Generative AI.
     - category: Data Engineering & Infrastructure
