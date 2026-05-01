@@ -1,0 +1,23 @@
+{% assign expertise = site.data.data.expertise %}
+{% if expertise %}
+<section class="expertise-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-star fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ expertise.title }}
+  </h2>
+
+  <div class="expertise-list">
+    {% for area in expertise.areas %}
+    <div class="item" style="margin-bottom: 15px;">
+      <div class="details">
+        <strong>{{ area.category }}:</strong> {{ area.details }}
+      </div>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+
+</section><!--//section-->
+{% endif %}

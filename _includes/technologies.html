@@ -1,0 +1,23 @@
+{% assign technologies = site.data.data.technologies %}
+{% if technologies %}
+<section class="technologies-section section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-microchip fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ technologies.title }}
+  </h2>
+
+  <div class="technologies-list">
+    {% for area in technologies.areas %}
+    <div class="item" style="margin-bottom: 15px;">
+      <div class="details">
+        <strong>{{ area.category }}:</strong> {{ area.details }}
+      </div>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+
+</section><!--//section-->
+{% endif %}

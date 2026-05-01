@@ -7,6 +7,29 @@
    body {
       font-size: 9.3pt;
       background: white !important;
+      line-height: 1.2 !important;
+      zoom: 0.99;
+      /* WebKit/Blink specific print scaling */
+   }
+
+   p,
+   ul,
+   ol,
+   li {
+      line-height: 1.2 !important;
+   }
+
+   p {
+      margin-bottom: 5px !important;
+   }
+
+   /* Summary Section Print Adjustments */
+   .summary-section .section-title {
+      display: none !important;
+   }
+
+   .summary-section {
+      font-size: 10.3pt !important;
    }
 
    /* Hide navigation buttons (Resume/Projects) */
@@ -170,8 +193,9 @@
       }
 
       .section-title {
-         margin-bottom: 15px;
+         margin-bottom: 5px !important;
          font-weight: 800;
+         font-size: 15.5pt !important;
       }
 
       .time {
@@ -222,6 +246,45 @@
          padding: 0 !important;
       }
 
+      /* Education specific inline formatting */
+      .educations-section .meta {
+         display: flex;
+         justify-content: space-between;
+         align-items: baseline;
+         border-bottom: none !important;
+         padding-bottom: 2px !important;
+      }
+
+      .educations-section .meta::before {
+         content: "";
+         flex-grow: 1;
+         border-bottom: 1px solid #999;
+         margin: 0 15px;
+         order: 1;
+         position: relative;
+         top: -4px;
+      }
+
+      .educations-section .upper-row {
+         margin: 0 !important;
+         padding: 0 !important;
+         order: 0;
+         flex-shrink: 0;
+      }
+
+      .educations-section .degree {
+         display: inline !important;
+         margin: 0 !important;
+      }
+
+      .educations-section .university {
+         margin: 0 !important;
+         padding: 0 !important;
+         text-align: right;
+         order: 2;
+         flex-shrink: 0;
+      }
+
       .details {
          margin-top: 3px;
       }
@@ -250,7 +313,9 @@
    /* Allow sections to flow naturally across pages */
    /* Only avoid breaks within individual job/project items */
    .experiences-section .item,
-   .projects-section .item {
+   .projects-section .item,
+   .expertise-section .item,
+   .technologies-section .item {
       page-break-inside: auto;
    }
 }
