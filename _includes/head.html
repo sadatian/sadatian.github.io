@@ -8,8 +8,23 @@
   {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description |default: "A beautiful
-  Jekyll theme for creating resume" }}">
+  <meta name="description" content="{{ site.description | default: "Dan Sadatian Portfolio" }}">
+  <meta name="author" content="{{ site.data.data.sidebar.name | default: 'Dan Sadatian' }}">
+  <meta name="keywords" content="Data Science Manager, ML/AI Strategy, Enterprise Analytics, Machine Learning, AI">
+
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{ site.data.data.sidebar.avatar }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}/">
+  <meta property="twitter:title" content="{{ site.title }}">
+  <meta property="twitter:description" content="{{ site.description }}">
+  <meta property="twitter:image" content="{{ site.url }}/assets/images/{{ site.data.data.sidebar.avatar }}">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
