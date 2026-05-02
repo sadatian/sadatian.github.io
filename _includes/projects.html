@@ -1,6 +1,5 @@
 
 <section class="section projects-section">
-  
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -12,16 +11,13 @@
 
   <div class="intro">
       <p>This page is under development ⚠, three more 'case studies' and four 'academic reviews' are being prepared to be added.</p>
-  </div><!--//intro-->
+  </div>
 
   {% for post in site.posts %}
-  
     <div class="item">
-
       <span class="project-title">
         {% if post.url %}
-        <a href="{{ post.url }}" target="_blank">{{ post.title }}
-      </a>
+        <a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
         {% else %}
         {{ post.title }}
         {% endif %}
@@ -30,8 +26,7 @@
       {% if post.tagline %}
       - <span class="project-tagline">{{ post.tagline }}</span>
       {% endif %}
-
-    </div><!--//item-->
+    </div>
     {% endfor %}
 
-</section><!--//section-->
+</section>

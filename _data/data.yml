@@ -81,12 +81,10 @@ experiences:
         - Defined and executed enterprise data science integration strategy following the Capital One–Discover merger, aligning analytics platforms, ML workflows, and governance standards across organizations.
         - Directed harmonization of complex data structures, ETL pipelines, and analytical infrastructure spanning previously independent technology ecosystems.
         - Partnered with senior executives to prioritize integration roadmaps, align technical investments with strategic objectives, and ensure continuity of critical data science capabilities.
-        
-        <div class="company" style="margin-left: 20px; font-size: 14px; font-weight: bold; margin-top: 15px; margin-bottom: 5px;">Key Accomplishments:</div>
+      accomplishments:
         - Drove adoption of unified ML/AI frameworks and best practices, reducing model deployment friction by 33% and improving governance consistency across enterprise production systems.
         - Managed a 5-person data science team through large-scale organizational transformation, maintaining delivery velocity, operational stability, and team engagement during post-merger integration.
         - Developed migration strategies for proprietary ML platforms and advanced analytics tooling, minimizing business disruption while accelerating platform unification.
-        <br><br>
 
     - role: Lead Data Scientist
       time: Jan '23 - Feb '25
@@ -95,12 +93,10 @@ experiences:
         - Led a cross-functional data science team focused on representation learning, relational network analysis, and predictive modeling for enterprise risk, audit, and compliance functions.
         - Architected advanced graph and embedding frameworks to uncover latent relationships across complex financial and operational datasets.
         - Developed enterprise reporting and analytics frameworks for audit performance, enabling automated reporting, executive visibility, and real-time operational monitoring.
-        
-        <div class="company" style="margin-left: 20px; font-size: 14px; font-weight: bold; margin-top: 15px; margin-bottom: 5px;">Key Accomplishments:</div>
+      accomplishments:
         - Built scalable machine learning pipelines for fraud detection and risk scoring, improving model performance while reducing false positives across high-volume financial workflows.
         - Designed and deployed an end-to-end Issue Analysis platform leveraging NLP, graph analytics, and predictive modeling to proactively identify compliance risks and operational anomalies across multiple audit domains.
         - Established engineering and MLOps best practices, developing a departmental training program and mentoring 12 junior data scientists in model development, feature engineering, testing, and production deployment.
-        <br><br>
 
     - role: Financial Management Specialist (Active Duty)
       time: Sep '15 - Sep '19
@@ -114,13 +110,11 @@ experiences:
 
         *Logistics Specialist* — 40TH Military Police Battalion S4
           - Coordinated procurement, supply chain operations, and asset readiness across mission-critical logistics functions.
-          
-        <div class="company" style="margin-left: 20px; font-size: 14px; font-weight: bold; margin-top: 15px; margin-bottom: 5px;">Key Accomplishments:</div>
+      accomplishments:
         - Managed operational budgets exceeding $3.75M, aligning financial execution with strategic priorities while improving forecasting accuracy and resource allocation efficiency.
         - Improved review processes by integrating analytical pattern-detection methodologies that reduced audit cycle times and increased control effectiveness.
         - Automated asset tracking and logistics workflows, reducing administrative overhead while improving operational readiness.
         - Recruited and fully trained replacement personnel ahead of scheduled transition timelines, ensuring uninterrupted mission continuity.
-        <br><br>
 
     - role: Founder, Executive Director
       time: Aug '11 - Sep '15

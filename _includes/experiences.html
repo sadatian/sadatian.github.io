@@ -13,24 +13,32 @@
   <div class="item">
 
     <div class="meta">
-
       <div class="upper-row">
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
+      </div>
       <div class="company">{{ experience.company }}</div>
-
-    </div><!--//meta-->
+    </div>
 
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
-    </div><!--//details-->
+    </div>
     {% endif %}
 
-  </div><!--//item-->
+    {% if experience.accomplishments %}
+    <div class="accomplishments-title company">Key Accomplishments:</div>
+    <div class="details">
+      <ul>
+        {% for item in experience.accomplishments %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
   {% endfor %}
 
-</section><!--//section-->
+</section>
 {% endif %}

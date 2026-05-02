@@ -11,13 +11,13 @@
 
   <div class="expertise-list">
     {% for area in expertise.areas %}
-    <div class="item" style="margin-bottom: 15px;">
+    <div class="item">
       <div class="details">
         <strong>{{ area.category }}:</strong> {{ area.details }}
       </div>
-    </div><!--//item-->
+    </div>
     {% endfor %}
   </div>
 
-</section><!--//section-->
+</section>
 {% endif %}

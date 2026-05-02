@@ -6,12 +6,11 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  // letter-spacing: -0.01em;
   font-weight: 500;
   color: $text-color-secondary;
   background: #eee5e8bd;
   font-size: 15px;
-  padding: 00px;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -60,18 +59,21 @@ iframe {
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
+// =============================================
+// Sidebar
+// =============================================
+
 .sidebar-wrapper {
   position: sticky;
   height: calc(100vh + 0px);
-  top: 0px;
+  top: 0;
   left: 0;
-  color: white;
+  color: #fff;
   flex-grow: 0;
   flex-shrink: 0;
   grid-column: span 3;
   order: 0;
   background: #802942e0;
-  color: #fff;
   font-family: "Roboto Slab", serif;
 
   a {
@@ -79,17 +81,12 @@ iframe {
   }
 
   .profile-container {
-    // padding: 30px;
     padding-top: 30px;
-    //background: darken($theme-color, 10%);
-    // background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
 
   .name {
-    // font-size: 32px;
-    // font-weight: 900;
     font-variant: small-caps;
     font-family: "Roboto Slab", serif;
     text-shadow: 1px 1px 2px #00000099;
@@ -98,7 +95,7 @@ iframe {
   }
 
   .tagline {
-    color: rgba(256, 256, 256, 0.75);
+    color: rgba(255, 255, 255, 0.75);
     text-shadow: 1px 1px 2px #00000099;
     font-size: 16px;
     font-weight: 400;
@@ -111,7 +108,6 @@ iframe {
   }
 
   .avatar {
-    //used for profile image
     max-width: 160px;
     margin-top: 45px;
     margin-bottom: 45px;
@@ -120,7 +116,6 @@ iframe {
   }
 
   .contact-list {
-
     .fas,
     .fab,
     .far {
@@ -135,18 +130,15 @@ iframe {
 
       &:last-child {
         margin-bottom: 0;
-
       }
     }
   }
 
   .container-block {
-    // padding: 30px;
     margin-top: 15%;
   }
 
   .container-block-title {
-    // text-transform: uppercase;
     font-variant: small-caps;
     font-family: "Roboto Slab", serif;
     font-size: 16px;
@@ -171,22 +163,22 @@ iframe {
     }
 
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(255, 255, 255, 0.6);
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-top: 0;
     }
 
     .time {
       color: #8d6171;
       font-weight: 500;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
 
   .languages-container {
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(255, 255, 255, 0.6);
     }
   }
 
@@ -244,86 +236,16 @@ iframe {
   }
 }
 
+// =============================================
+// Sidebar — Responsive (≤1100px)
+// =============================================
+
 @media only screen and (max-width: 1100px) {
   .sidebar-wrapper {
-    position: sticky;
-    top: 0px;
-    left: 0;
-    color: white;
-    flex-grow: 0;
-    flex-shrink: 0;
-    grid-column: span 3;
-    order: 0;
-    // background: $theme-color;
-    color: #fff;
-
-    a {
-      color: #fff;
-    }
-
-    // .profile-container {
-    //   // padding: 30px;
-    //   padding-top: 30px;
-    //   //background: darken($theme-color, 10%);
-    //   // background: rgba(0, 0, 0, 0.2);
-    //   text-align: center;
-    //   color: #fff;
-    // }
-    // .name {
-    //   font-size: 32px;
-    //   font-weight: 900;
-    //   margin-top: 0;
-    //   margin-bottom: 10px;
-    // }
-    // .tagline {
-    //   color: rgba(256, 256, 256, 0.6);
-    //   font-size: 16px;
-    //   font-weight: 400;
-    //   margin-top: 0;
-    //   margin-bottom: 0;
-    // }
-    // .profile {
-    //   margin-bottom: 15px;
-    // }
-
-    // .avatar {
-    //   //used for profile image
-    //   max-width: 120px;
-    //   margin-bottom: 15px;
-    //   border: 0px solid #fff;
-    //   border-radius: 100%;
-    //   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    // }
-    // .contact-list {
-    //   .fas,
-    //   .fab,
-    //   .far {
-    //     margin-right: 5px;
-    //     font-size: 18px;
-    //     vertical-align: middle;
-    //   }
-    //   li {
-    //     margin-bottom: 15px;
-    //     text-align-last: center;
-
-    //     &:last-child {
-    //       margin-bottom: 0;
-
-    //     }
-    //   }
-    // }
     .container-block {
-      // padding: 30px;
       margin-top: 8%;
     }
 
-    // .container-block-title {
-    //   text-transform: uppercase;
-    //   font-size: 16px;
-    //   font-weight: 700;
-    //   margin-top: 0;
-    //   margin-bottom: 15px;
-    // }
     .degree {
       font-size: 14px;
       margin-top: 0;
@@ -340,22 +262,22 @@ iframe {
       }
 
       .meta {
-        color: rgba(256, 256, 256, 0.6);
+        color: rgba(255, 255, 255, 0.6);
         font-weight: 500;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         margin-top: 0;
       }
 
       .time {
         color: #8d6171;
         font-weight: 500;
-        margin-bottom: 0px;
+        margin-bottom: 0;
       }
     }
 
     .languages-container {
       .lang-desc {
-        color: rgba(256, 256, 256, 0.6);
+        color: rgba(255, 255, 255, 0.6);
       }
     }
 
@@ -392,17 +314,95 @@ iframe {
   }
 }
 
+// =============================================
+// Button Components (relocated from button.html)
+// =============================================
+
+.button {
+  background-color: #00000012;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+}
+
+.button-row {
+  position: relative;
+  width: 100%;
+  background-color: #00000012;
+}
+
+.button-resume {
+  display: block;
+  width: 100%;
+  border: none;
+  color: rgba(168, 0, 0, 0.501);
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: transparent;
+  transition-duration: 0.4s;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+    text-decoration: none;
+  }
+}
+
+.button-download {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: 1px dashed rgba(94, 5, 22, 0.573);
+  color: rgba(125, 9, 9, 0.646);
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition-duration: 0.4s;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+  }
+
+  img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+// =============================================
+// Main Content Area
+// =============================================
+
 .main-wrapper {
   grid-column: span 7;
   background: #fff;
-  // height: 100vh;
   overflow: auto;
   padding: 30px;
   display: flex;
   flex-direction: column;
 
   .section-title {
-    // text-transform: uppercase;
     font-variant: small-caps;
     font-family: "Roboto Slab", serif;
     font-size: 22px;
@@ -459,6 +459,16 @@ iframe {
     color: #8d6171;
   }
 
+  // Key Accomplishments sub-header within experience items
+  .accomplishments-title {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #8d6171;
+  }
+
   .project-title {
     font-family: "Roboto Slab", serif;
     font-size: 16px;
@@ -500,12 +510,24 @@ iframe {
       margin-bottom: 15px;
     }
   }
+
+  // Spacing for expertise and technologies list items
+  .expertise-section,
+  .technologies-section {
+    .item {
+      margin-bottom: 15px;
+    }
+  }
 }
 
-// project title decapitalization:
+// Project title decapitalization
 .wrapper .main-wrapper .projects-section .section-title {
   text-transform: none;
 }
+
+// =============================================
+// Skill Bars
+// =============================================
 
 .skillset {
   .item {
@@ -530,8 +552,12 @@ iframe {
   }
 }
 
+// =============================================
+// Footer
+// =============================================
+
 .footer {
-  padding-top: 0px;
+  padding-top: 0;
 
   .copyright {
     line-height: 1.6;
@@ -544,12 +570,13 @@ iframe {
   }
 }
 
+// =============================================
+// Custom Scrollbar
+// =============================================
 
-// Scrollbar
 ::-webkit-scrollbar {
   width: 20px;
 }
-
 
 ::-webkit-scrollbar-track {
   background-color: transparent;
