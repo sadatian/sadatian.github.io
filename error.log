@@ -1,0 +1,179 @@
+﻿bundle : C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/log_adapter.rb:43: warning: Logger not 
+initialized properly
+At line:1 char:1
++ bundle exec jekyll build 2>&1 | Out-File -Encoding utf8 error.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:/tools/ruby34...alized properly:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/stevenson.rb:5: info: Jekyll::Stevenson#initialize: 
+does not call super probably
+Configuration file: C:/Users/Dan/job/portfolio-webpage/sadatian.github.io/_config.yml
+            Source: C:/Users/Dan/job/portfolio-webpage/sadatian.github.io
+       Destination: C:/Users/Dan/job/portfolio-webpage/sadatian.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[31m  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/main.scss':[0m
+[31m                    wrong number of arguments (1 for 3)[0m
+jekyll 3.9.2 | Error:  wrong number of arguments (1 for 3)
+C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/functions.rb:654:in 'Sass::Script::Functions#rgb': 
+wrong number of arguments (1 for 3) (ArgumentError)
+
+        raise ArgumentError.new("wrong number of arguments (1 for 3)")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:151:in 'block in 
+Sass::Script::Tree::Funcall#_perform'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:108:in 'block in Sass::Stack#with_function'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:108:in 'Sass::Stack#with_function'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:149:in 
+'Sass::Script::Tree::Funcall#_perform'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in 
+'Sass::Script::Tree::Node#perform'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in 
+'Sass::Tree::Visitors::Perform#visit_prop'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in 
+Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'block (2 levels) 
+in Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'Array#map'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'block in 
+Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in 
+'Sass::Tree::Visitors::Perform#with_environment'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in 
+'Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in 
+Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'block (2 levels) 
+in Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'Array#map'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in 'block in 
+Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in 
+'Sass::Tree::Visitors::Perform#with_environment'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in 
+'Sass::Tree::Visitors::Perform#visit_rule'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in 
+Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'block (2 levels) 
+in Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'Array#map'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'block in 
+Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in 'block in Sass::Stack#with_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in 'Sass::Stack#with_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in 
+'Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in 
+Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'block (2 levels) 
+in Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'Array#map'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in 'block in 
+Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in 'block in Sass::Stack#with_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in 'Sass::Stack#with_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in 
+'Sass::Tree::Visitors::Perform#visit_import'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in 
+Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 'block in 
+Sass::Tree::Visitors::Base#visit_children'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 'Array#map'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 
+'Sass::Tree::Visitors::Base#visit_children'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in 'block in 
+Sass::Tree::Visitors::Perform#visit_children'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in 
+'Sass::Tree::Visitors::Perform#with_environment'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in 
+'Sass::Tree::Visitors::Perform#visit_children'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 'block in 
+Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in 
+'Sass::Tree::Visitors::Perform#visit_root'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 
+'Sass::Tree::Visitors::Base#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in 
+'Sass::Tree::Visitors::Perform#visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in 
+'Sass::Tree::Visitors::Perform.visit'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in 
+'Sass::Tree::RootNode#css_tree'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in 
+'Sass::Tree::RootNode#render'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in 'Sass::Engine#render'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass.rb:57:in 'Sass.compile'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-sass-converter-1.5.2/lib/jekyll/converters/scss.rb:119:in 
+'Jekyll::Converters::Scss#convert'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:101:in 'block in 
+Jekyll::Renderer#convert'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:99:in 'Array#each'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:99:in 'Enumerable#reduce'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:99:in 'Jekyll::Renderer#convert'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:83:in 
+'Jekyll::Renderer#render_document'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/renderer.rb:62:in 'Jekyll::Renderer#run'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:479:in 'Jekyll::Site#render_regenerated'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:472:in 'block in 
+Jekyll::Site#render_pages'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:471:in 'Array#each'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:471:in 'Jekyll::Site#render_pages'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:192:in 'Jekyll::Site#render'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/site.rb:71:in 'Jekyll::Site#process'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/command.rb:28:in 'Jekyll::Command.process_site'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:65:in 
+'Jekyll::Commands::Build.build'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:36:in 
+'Jekyll::Commands::Build.process'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/lib/jekyll/commands/build.rb:18:in 'block (2 levels) in 
+Jekyll::Commands::Build.init_with_program'
+	from C:/Users/Dan/.local/share/gem/ruby/3.4.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in 'block in 
+Mercenary::Command#execute'
+	from C:/Users/Dan/.local/share/gem/ruby/3.4.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in 'Array#each'
+	from C:/Users/Dan/.local/share/gem/ruby/3.4.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in 
+'Mercenary::Command#execute'
+	from C:/Users/Dan/.local/share/gem/ruby/3.4.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in 
+'Mercenary::Program#go'
+	from C:/Users/Dan/.local/share/gem/ruby/3.4.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in 'Mercenary.program'
+	from C:/tools/ruby34/lib/ruby/gems/3.4.0/gems/jekyll-3.9.2/exe/jekyll:15:in '<top (required)>'
+	from C:/tools/ruby34/bin/jekyll:25:in 'Kernel#load'
+	from C:/tools/ruby34/bin/jekyll:25:in '<main>'
