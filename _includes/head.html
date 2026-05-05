@@ -1,30 +1,56 @@
 <head>
-  <title>{{ site.title }}</title>
+  <title>{{ page.title | default: site.title }}</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
   {% if site.chrome_mobile_color %}
   <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
-  {% endif%}
+  {% endif %}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description | default: "Dan Sadatian Portfolio" }}">
-  <meta name="author" content="{{ site.data.data.sidebar.name | default: 'Dan Sadatian' }}">
-  <meta name="keywords" content="Data Science Manager, ML/AI Strategy, Enterprise Analytics, Machine Learning, AI">
+  <meta name="robots" content="index, follow">
 
-  <!-- Open Graph / LinkedIn / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}/">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ site.url }}/assets/images/{{ site.data.data.sidebar.avatar }}">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html', '' }}">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="{{ site.url }}/">
-  <meta property="twitter:title" content="{{ site.title }}">
-  <meta property="twitter:description" content="{{ site.description }}">
-  <meta property="twitter:image" content="{{ site.url }}/assets/images/{{ site.data.data.sidebar.avatar }}">
+  <!-- jekyll-seo-tag: generates title, description, author, OG, Twitter card tags -->
+  {% seo %}
+
+  <!-- Extended Keywords -->
+  <meta name="keywords" content="Dan Sadatian, Data Science Manager, Machine Learning, AI Strategy, MLOps, Enterprise Analytics, Capital One, Discover Financial Services, Fraud Detection, NLP, Graph Analytics, Python, Databricks, AWS SageMaker">
+
+  <!-- JSON-LD Structured Data: Person schema for Google Knowledge Panel -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dan Sadatian",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/assets/images/{{ site.data.data.sidebar.avatar }}",
+    "email": "mailto:{{ site.data.data.sidebar.email }}",
+    "jobTitle": "Manager, Data Science",
+    "description": {{ site.description | jsonify }},
+    "sameAs": [
+      "https://www.linkedin.com/in/dansadatian",
+      "https://github.com/sadatian"
+    ],
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "Georgia Institute of Technology"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "New York City College of Technology"
+      }
+    ],
+    "knowsAbout": [
+      "Machine Learning", "Data Science", "MLOps", "AI Strategy",
+      "Natural Language Processing", "Graph Analytics", "Fraud Detection",
+      "Enterprise Analytics", "Python", "Databricks", "AWS SageMaker"
+    ]
+  }
+  </script>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
@@ -37,4 +63,5 @@
 
   <!-- Theme CSS -->
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
 </head>

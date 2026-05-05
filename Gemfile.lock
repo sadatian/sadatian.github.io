@@ -271,6 +271,8 @@ DEPENDENCIES
   csv
   github-pages
   jekyll
+  jekyll-seo-tag (~> 2.8)
+  jekyll-sitemap (~> 1.4)
   logger
   mutex_m
   tzinfo-data

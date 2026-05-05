@@ -1,8 +1,23 @@
 # Site Settings
 title: Dan Sadatian | Data Science Manager
-url: 'https://sadatian.io/'
+url: 'https://sadatian.io'
+baseurl: ''
 
 description: Data science leader with 10+ years of experience building and scaling machine learning systems in enterprise environments. Proven track record leading cross-functional teams, deploying production-grade AI/ML platforms, and translating complex data into measurable business outcomes across risk, fraud, and governance-heavy domains. Recently led enterprise data science integration strategy during the Capital One–Discover merger, aligning platforms, workflows, and model governance across organizations.
+
+# Author (used by jekyll-seo-tag for structured data)
+author:
+  name: Dan Sadatian
+  email: dan@sadatian.io
+  linkedin: dansadatian
+  github: sadatian
+
+# Social (used by jekyll-seo-tag)
+social:
+  name: Dan Sadatian
+  links:
+    - https://www.linkedin.com/in/dansadatian
+    - https://github.com/sadatian
 
 # Theme: blue | turquoise | green | berry | orange | ceramic
 theme_skin: ceramic
@@ -15,6 +30,11 @@ analytics: G-VL88Z2BS3R
 sass:
   sass_dir: _sass
   style: compressed
+
+# Plugins (all whitelisted by GitHub Pages)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Build settings
 compress-site: yes
