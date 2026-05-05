@@ -44,6 +44,31 @@ compress_html:
   ignore:
     envs: development
 
+# Files to exclude from the built site
+exclude:
+  - GEMINI.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - error.log
+  - projects/sampleproject.html
+
+# Sitemap exclusions: suppress raw notebook exports, PDFs, and assets
+defaults:
+  - scope:
+      path: "projects/*.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "projects/*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
 # Development Settings
 port: 4000
 host: 0.0.0.0
