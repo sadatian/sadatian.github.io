@@ -31,7 +31,7 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      Data science leader with 10+ years of experience building and scaling machine learning systems in enterprise environments. Proven track record leading cross-functional teams, deploying production-grade AI/ML platforms, and translating complex data into measurable business outcomes across risk, fraud, and governance-heavy domains. Recently led enterprise data science integration strategy during the Capital One–Discover merger, aligning platforms, workflows, and model governance across organizations.
+      Data science leader with 10+ years of experience building and scaling machine learning systems in enterprise environments. Proven track record leading cross-functional teams, deploying production-grade ML/AI platforms, and translating complex data into measurable business outcomes across risk, fraud, and governance-heavy domains. Recently led enterprise data science integration strategy during the Capital One–Discover merger, aligning platforms, workflows, and model governance across organizations.
 
 expertise:
   title: Expertise
@@ -39,9 +39,9 @@ expertise:
     - category: Strategic Leadership & Governance
       details: ML/AI Strategy, MLOps Governance, Data Governance, Model Risk Management, Technical Leadership, Organizational Change Management, Enterprise Integration.
     - category: AI & Advanced Modeling
-      details: Predictive Modeling, Natural Language Processing, Graph Analytics, Representation Learning, RAG, Vector Search, Generative AI.
+      details: Predictive Modeling, Natural Language Processing, Graph Analytics, Representation Learning, Vector Search, Agentic RAG, Generative AI.
     - category: Data Engineering & Infrastructure
-      details: Distributed Systems, Cloud Architecture, ETL/ELT, MLOps, Model Deployment, Production ML.
+      details: Distributed Systems, Cloud Architecture, ETL/ELT, MLOps, Model Deployment, Production ML, LLMOps.
     - category: Decision Science & Analytics
       details: Risk Analytics, Fraud Detection, Experimentation, Optimization, Simulation, Stochastic Modeling.
 
@@ -51,7 +51,7 @@ technologies:
     - category: Core
       details: Python, SQL, Spark, Databricks, AWS (SageMaker), Azure ML, Docker, Kubernetes
     - category: Machine Learning & AI
-      details: LangChain, TensorFlow, Hugging Face, Neo4j, NetworkX, spaCy, NLTK, Gensim
+      details: LangChain, LangGraph, TensorFlow, Hugging Face, Neo4j, NetworkX, spaCy, NLTK, Gensim
     - category: Analytics & Visualization
       details: Tableau, Power BI, Looker, Plotly, Dash, Alteryx
     - category: Operations Research & Simulation
@@ -82,7 +82,7 @@ experiences:
         - Directed harmonization of complex data structures, ETL pipelines, and analytical infrastructure spanning previously independent technology ecosystems.
         - Partnered with senior executives to prioritize integration roadmaps, align technical investments with strategic objectives, and ensure continuity of critical data science capabilities.
       accomplishments:
-        - Drove adoption of unified ML/AI frameworks and best practices, reducing model deployment friction by 33% and improving governance consistency across enterprise production systems.
+        - •	Drove adoption of unified ML/AI frameworks with MLOps and LLMOps best practices, incorporating Model Context Protocols (MCP) for seamless tooling integrations, reducing model deployment friction by 33% and improving governance consistency across enterprise production systems. 
         - Managed a 5-person data science team through large-scale organizational transformation, maintaining delivery velocity, operational stability, and team engagement during post-merger integration.
         - Developed migration strategies for proprietary ML platforms and advanced analytics tooling, minimizing business disruption while accelerating platform unification.
 
@@ -95,7 +95,7 @@ experiences:
         - Developed enterprise reporting and analytics frameworks for audit performance, enabling automated reporting, executive visibility, and real-time operational monitoring.
       accomplishments:
         - Built scalable machine learning pipelines for fraud detection and risk scoring, improving model performance while reducing false positives across high-volume financial workflows.
-        - Designed and deployed an end-to-end Issue Analysis platform leveraging NLP, graph analytics, and predictive modeling to proactively identify compliance risks and operational anomalies across multiple audit domains.
+        - Designed and deployed an end-to-end Issue Analysis platform leveraging NLP, agentic AI, graph analytics, and predictive modeling to proactively identify compliance risks and operational anomalies across multiple audit domains.
         - Established engineering and MLOps best practices, developing a departmental training program and mentoring 12 junior data scientists in model development, feature engineering, testing, and production deployment.
 
     - role: Financial Management Specialist (Active Duty)
@@ -111,7 +111,7 @@ experiences:
         *Logistics Specialist* — 40TH Military Police Battalion S4
           - Coordinated procurement, supply chain operations, and asset readiness across mission-critical logistics functions.
       accomplishments:
-        - Managed operational budgets exceeding $3.75M, aligning financial execution with strategic priorities while improving forecasting accuracy and resource allocation efficiency.
+        - Managed multiple operational budgets, each exceeding $3.75M, aligning financial execution with strategic priorities while improving forecasting accuracy and resource allocation efficiency.
         - Improved review processes by integrating analytical pattern-detection methodologies that reduced audit cycle times and increased control effectiveness.
         - Automated asset tracking and logistics workflows, reducing administrative overhead while improving operational readiness.
         - Recruited and fully trained replacement personnel ahead of scheduled transition timelines, ensuring uninterrupted mission continuity.
