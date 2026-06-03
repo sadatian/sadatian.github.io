@@ -6,5 +6,5 @@ Allow: /
 Sitemap: {{ site.url }}/sitemap.xml
 
 # LLM / AI Profile Data
-# {{ site.url }}/llm.txt
+# {{ site.url }}/llms.txt
 # {{ site.url }}/ai.txt
