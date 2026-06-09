@@ -51,7 +51,7 @@ technologies:
     - category: Core
       details: Python, SQL, Spark, Databricks, AWS (SageMaker), Azure ML, Docker, Kubernetes
     - category: Machine Learning & AI
-      details: LangChain, LangGraph, TensorFlow, Hugging Face, Neo4j, NetworkX, spaCy, NLTK, Gensim
+      details: PyTorch, TensorFlow, Gradient Boosting, spaCy, NLTK, Gensim, Hugging Face, LangChain, LangGraph, Neo4j, NetworkX
     - category: Analytics & Visualization
       details: Tableau, Power BI, Looker, Plotly, Dash, Alteryx
     - category: Operations Research & Simulation
