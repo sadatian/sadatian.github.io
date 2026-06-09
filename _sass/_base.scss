@@ -616,18 +616,33 @@ iframe {
     justify-content: center;
     width: 48px;
     height: 48px;
-    background-color: #00000012;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     border-radius: 12px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    transition: box-shadow 0.3s ease;
     position: relative; // For tooltip
 
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #00000012;
+      clip-path: url(#squircle-clip);
+      -webkit-clip-path: url(#squircle-clip);
+      transition: background-color 0.3s ease;
+      z-index: -1;
+    }
+
     &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
       box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
-      transform: translateY(-2px);
+
+      &::before {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
 
       &[data-tooltip]::after {
         content: attr(data-tooltip);
