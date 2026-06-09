@@ -81,7 +81,7 @@ iframe {
   }
 
   .profile-container {
-    padding-top: 30px;
+    padding-top: 25px;
     text-align: center;
     color: #fff;
   }
@@ -91,7 +91,7 @@ iframe {
     font-family: "Roboto Slab", serif;
     text-shadow: 1px 1px 2px #00000099;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .tagline {
@@ -104,13 +104,13 @@ iframe {
   }
 
   .profile {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
   }
 
   .avatar {
     max-width: 160px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     border: none;
     filter: drop-shadow(1px 0 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.3));
   }
@@ -126,7 +126,7 @@ iframe {
     }
 
     li {
-      margin-bottom: 15px;
+      margin-bottom: 11px;
       text-align-last: center;
 
       &:last-child {
@@ -136,7 +136,7 @@ iframe {
   }
 
   .container-block {
-    margin-top: 15%;
+    margin-top: 13%;
   }
 
   .container-block-title {
@@ -145,7 +145,7 @@ iframe {
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
   }
 
   .degree {
@@ -156,7 +156,7 @@ iframe {
 
   .education-container {
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 11px;
 
       &:last-child {
         margin-bottom: 0;
@@ -187,7 +187,7 @@ iframe {
     margin-bottom: 0;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
 
       &:last-child {
         margin-bottom: 0;
@@ -199,7 +199,7 @@ iframe {
     margin-bottom: 0;
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
 
       &:last-child {
         margin-bottom: 0;
@@ -244,7 +244,7 @@ iframe {
 @media only screen and (max-width: 1100px) {
   .sidebar-wrapper {
     .container-block {
-      margin-top: 8%;
+      margin-top: 7%;
     }
 
     .degree {
@@ -286,7 +286,7 @@ iframe {
       margin-bottom: 0;
 
       li {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
 
         &:last-child {
           margin-bottom: 0;
@@ -298,7 +298,7 @@ iframe {
       margin-bottom: 0;
 
       li {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
 
         &:last-child {
           margin-bottom: 0;
@@ -594,4 +594,81 @@ iframe {
   background-color: #ddaac3;
   border-radius: 18px;
   border: 5px solid transparent;
+}
+
+// =============================================
+// AI Buttons
+// =============================================
+
+
+
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 48px);
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  a.ai-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #00000012;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    position: relative; // For tooltip
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.24);
+      transform: translateY(-2px);
+
+      &[data-tooltip]::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 8px;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        white-space: nowrap;
+        pointer-events: none;
+        z-index: 10;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      // Tooltip arrow
+      &[data-tooltip]::before {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0; // touching the element
+        border-width: 4px;
+        border-style: solid;
+        border-color: #333 transparent transparent transparent;
+        z-index: 10;
+        pointer-events: none;
+      }
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+      stroke-width: 1.5;
+      stroke: #fff;
+      display: block;
+    }
+  }
 }
