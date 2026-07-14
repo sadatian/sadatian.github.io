@@ -16,7 +16,9 @@
   {% for post in site.posts %}
     <div class="item">
       <span class="project-title">
-        {% if post.url %}
+        {% if post.external_url %}
+        <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+        {% elsif post.url %}
         <a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
         {% else %}
         {{ post.title }}
