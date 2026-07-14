@@ -9,9 +9,11 @@
     Projects
   </h2>
 
+  {% if site.data.data.projects.intro %}
   <div class="intro">
-      <p>This page is under development ⚠, three more 'case studies' and four 'academic reviews' are being prepared to be added.</p>
+    {{ site.data.data.projects.intro | markdownify }}
   </div>
+  {% endif %}
 
   {% for post in site.posts %}
     <div class="item">

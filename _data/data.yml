@@ -123,3 +123,7 @@ experiences:
     - role: Research Associate
       time: Jan '09 - Nov '14
       company: New York City College of Technology
+
+projects:
+    intro: |
+        A selection of case studies, academic reviews, open-source libraries, and interactive tools spanning machine learning, mathematical optimization, operations research, and statistical analysis.
