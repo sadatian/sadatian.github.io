@@ -33,7 +33,6 @@ sass:
 
 # Plugins (all whitelisted by GitHub Pages)
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
 
 # Build settings

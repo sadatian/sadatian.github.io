@@ -4,8 +4,6 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ site.url }}/sitemap.xml
-Sitemap: {{ site.url }}/xpyrment/sitemap.xml
-Sitemap: {{ site.url }}/MLOps/sitemap.xml
 
 # LLM / AI Profile Data
 # {{ site.url }}/llms.txt

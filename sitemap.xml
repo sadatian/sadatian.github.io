@@ -1,0 +1,53 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Local Posts -->
+  {% for post in site.posts %}
+    {% unless post.sitemap == false %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.last_modified_at %}
+        <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
+      {% elsif post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    {% endunless %}
+  {% endfor %}
+
+  <!-- Local Pages -->
+  {% for page in site.pages %}
+    {% unless page.sitemap == false or page.layout == nil or page.url contains "robots.txt" or page.url contains "sitemap.xml" or page.url contains "ai.txt" or page.url contains "llms.txt" %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    {% endunless %}
+  {% endfor %}
+
+  <!-- Fetched External URLs -->
+  {% if site.data.external_sitemaps %}
+    {% for ext_url in site.data.external_sitemaps %}
+    <url>
+      <loc>{{ ext_url.loc }}</loc>
+      {% if ext_url.lastmod %}
+      <lastmod>{{ ext_url.lastmod }}</lastmod>
+      {% endif %}
+      {% if ext_url.changefreq %}
+      <changefreq>{{ ext_url.changefreq }}</changefreq>
+      {% endif %}
+      {% if ext_url.priority %}
+      <priority>{{ ext_url.priority }}</priority>
+      {% endif %}
+    </url>
+    {% endfor %}
+  {% endif %}
+</urlset>
